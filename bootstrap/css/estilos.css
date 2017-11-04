@@ -1,0 +1,30 @@
+header{
+  height: 90px;
+  background-color: rgb(255, 230, 51);
+}
+.logo{
+  height: 70px;
+  margin: 10px;
+  margin-left: 20px;
+}
+.redes{
+  font-size: 30px;
+  color: black;
+  padding-top: 40px;
+  padding-right: 5px;
+}
+.nav-justified{
+  background-color: rgb(235, 230, 197);
+}
+.navbar{
+  border: none!important;
+}
+
+#mj{
+  height: 150px;
+}
+@media screen and (max-width: 480px) {
+  .redes{
+    font-size: 16px;
+    padding-top: 60px;
+}
