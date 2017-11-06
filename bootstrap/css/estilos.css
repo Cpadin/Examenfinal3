@@ -8,7 +8,7 @@ header{
   margin-left: 20px;
 }
 .redes{
-  font-size: 30px;
+  font-size: 26px;
   color: black;
   padding-top: 40px;
   padding-right: 5px;
@@ -18,13 +18,66 @@ header{
 }
 .navbar{
   border: none!important;
+  font-weight: bold;
 }
-
-#mj{
-  height: 150px;
+.jumbotron{
+  padding: 30px !important;
+}
+.jumbotron p.nota {
+  font-size: 16px;
+}
+.img-nota{
+  max-width: 100%;
+  height: auto;
+}
+.lana-min{
+  display: none;
+}
+.comentario{
+  margin-top: 20px;
+  border-radius: 5px;
 }
 @media screen and (max-width: 480px) {
+  .logo{
+    height: 70px;
+    margin: 10px;
+  }
+  .redes{
+    font-size: 20px;
+    padding-top: 60px;
+  }
+  .jumbotron p.nota {
+    font-size: 14px;
+  }
+  .lana-max{
+    display: none;
+  }
+  .lana-min{
+    display: flex;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .logo{
+    height: 60px;
+    margin: 15px;
+  }
   .redes{
     font-size: 16px;
     padding-top: 60px;
+  }
+  .jumbotron p.nota {
+    font-size: 14px;
+  }
+  .lana-max{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lana-max{
+    display: none;
+    }
+  .lana-min{
+    display: flex;
+  }
 }
