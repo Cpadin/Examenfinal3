@@ -35,7 +35,13 @@ header{
 }
 .comentario{
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+.buscar{
+  margin-right: 15px;
+}
+.opciones-busqueda{
+  padding-right: 15px;
 }
 @media screen and (max-width: 480px) {
   .logo{
@@ -55,7 +61,6 @@ header{
   .lana-min{
     display: flex;
   }
-
 }
 @media screen and (max-width: 320px) {
   .logo{
@@ -79,5 +84,11 @@ header{
     }
   .lana-min{
     display: flex;
+  }
+  .buscar{
+    margin-left: 15px;
+  }
+  .opciones-busqueda{
+    margin-left: 15px;
   }
 }
