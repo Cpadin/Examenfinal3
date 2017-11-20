@@ -1,0 +1,58 @@
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  background: #ef5350 url(../images/fondo.jpg) no-repeat fixed bottom;
+  background-size: 100% 80%;
+  min-height: 1000px;
+}
+.logo{
+  padding: 20px;
+  width: 100%;
+  min-width: 150px;
+}
+.navegacion{
+  margin-top: 20px;
+}
+.btn{
+  width: 21%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  padding: 0px;
+  color: black;
+}
+.slogan{
+  margin-left: 5%!important;
+}
+.redes{
+  font-size: 3rem;
+  color: #c62828;
+}
+div[class="galeria"] img{
+  margin-bottom: 10px;
+}
+.entrada{
+
+}
+.img-entrada{
+height: 100px;
+
+}
+@media screen and (max-width: 768px) {
+  body{
+    background-size: 100% 75%;
+  }
+  .logo{
+    padding: 20px;
+    width: 150px;
+  }
+  .btn{
+    font-size: 12px;
+  }
+  .navegacion i{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navegacion i{
+    font-size: 18px;
+  }
+}
